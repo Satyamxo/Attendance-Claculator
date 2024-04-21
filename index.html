@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+      <h2>Attendance Calculator</h2>
+      <div class="percantage-container">
+        <select name="percentage" class="persec" id="percentage">
+          <option value="60">Percentage Required 60%</option>
+          <option value="65">Percentage Required 65%</option>
+          <option value="70">Percentage Required 70%</option>
+          <option value="75" selected>Percentage Required 75%</option>
+          <option value="80">Percentage Required 80%</option>
+          <option value="85">Percentage Required 85%</option>
+          <option value="90">Percentage Required 90%</option>
+        </select>
+      </div>
+      <div class="present">
+      <label for="present">Present Classes</label>
+      <input type="number" min="0" id="presentid">
+    </div>
+    <div class="total">
+      <label for="present">Total Classes</label>
+      <input type="number" min="0" id="totalid"> 
+    </div>
+    <button class="btn" id="btnid">Claculate</button>
+    <div class="output" id="result"></div>
+    </div>
+    <script src="app.js"></script>
+  
+</body>
+</html>

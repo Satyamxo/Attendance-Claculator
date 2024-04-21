@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body  {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.main-container {
+  width: 20rem;
+  height:30rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #BF953F, #FCF6BA);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.main-container select{
+  width: 17rem;
+  height: 42px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h2{
+  font-size: 1.8rem;
+  color: #4a2e0a;
+  
+}
+.main-container label{
+  width: 5rem;
+  height: 42px;
+  font-size: 1.5rem;
+  border: none;
+}
+.main-container input{
+  width: rem;
+  height: 42px;
+  transition: all 0.3s ease;
+  background-color: transparent;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: 1px solid black; */
+}
+.btn {
+  height: 42px;
+  width: 40%;
+  font-family: inherit;
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  border-radius: 10px; 
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.output{
+  color: #0b1826;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem;
+  width: fit-content;
+}
